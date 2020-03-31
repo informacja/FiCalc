@@ -42,7 +42,7 @@
             android:visibility="visible"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="565dp">
+            tools:layout_editor_absoluteY="245dp">
 
         <LinearLayout
                 android:layout_width="match_parent"
@@ -83,6 +83,13 @@
 
                     android:text="=" />
 
+            <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -122,6 +129,12 @@
 
                     android:text="φ" />
 
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="-" />
         </LinearLayout>
 
         <LinearLayout
@@ -161,6 +174,12 @@
 
                     android:text="AC" />
 
+            <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="*" />
         </LinearLayout>
 
         <LinearLayout
@@ -200,6 +219,12 @@
 
                     android:text="%" />
 
+            <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="/" />
         </LinearLayout>
     </LinearLayout>
 
