@@ -19,4 +19,9 @@
 <!--        <item name="android:">?android:attr/buttonBarButtonStyle</item>-->
     </style>
 
+    <style name="blueWhiite">
+        <item name="android:background">@color/design_default_color_primary_dark</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+    </style>
+
 </resources>

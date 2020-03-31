@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
         tools:context=".MainActivity">
 
     <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="76dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:gravity="center"
             android:text="@string/wprowad_a"
-            android:id="@+id/textView" tools:layout_editor_absoluteX="0dp" android:layout_marginTop="80dp"
+            android:textSize="30sp"
+            android:visibility="visible"
             app:layout_constraintTop_toTopOf="parent"
-            android:textSize="30sp" android:gravity="center"
-            tools:ignore="MissingConstraints"/>
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
 
     <TextView
             android:id="@+id/textView3"
@@ -37,6 +42,7 @@
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/colorAccent"
             android:gravity="bottom"
             android:orientation="vertical"
             android:visibility="visible"
@@ -69,26 +75,26 @@
 
             <Button
                     android:id="@+id/button29"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="9" />
 
             <Button
                     android:id="@+id/button30"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="=" />
 
             <Button
                     android:id="@+id/button"
+                    style="@style/blueWhiite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="+" />
 
         </LinearLayout>
@@ -100,42 +106,42 @@
 
             <Button
                     android:id="@+id/button23"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="4" />
 
             <Button
                     android:id="@+id/button24"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="5" />
 
             <Button
                     android:id="@+id/button25"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="6" />
 
             <Button
                     android:id="@+id/button26"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="φ" />
 
             <Button
                     android:id="@+id/button2"
+                    style="@style/blueWhiite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="-" />
         </LinearLayout>
 
@@ -146,42 +152,42 @@
 
             <Button
                     android:id="@+id/button19"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="1" />
 
             <Button
                     android:id="@+id/button20"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="2" />
 
             <Button
                     android:id="@+id/button21"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="3" />
 
             <Button
-                    android:id="@+id/button22"
+                    android:id="@+id/buttonAC"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="AC" />
 
             <Button
                     android:id="@+id/button3"
+                    style="@style/blueWhiite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="*" />
         </LinearLayout>
 
@@ -192,42 +198,42 @@
 
             <Button
                     android:id="@+id/button5"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="" />
 
             <Button
                     android:id="@+id/button6"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="0" />
 
             <Button
                     android:id="@+id/button7"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="." />
 
             <Button
                     android:id="@+id/button8"
+                    style="@style/textGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/textGreen"
                     android:text="%" />
 
             <Button
                     android:id="@+id/button4"
+                    style="@style/blueWhiite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="/" />
         </LinearLayout>
     </LinearLayout>

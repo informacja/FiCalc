@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 //            result = 0.0
 //            wasNoNmbr = true
 //            wasNoResult = true
-        })
+//        })
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -53,9 +53,9 @@ class MainActivity : AppCompatActivity() {
         str = savedInstanceState.getString("KEY","");
         operation = savedInstanceState.getString("kOperation","");
 //        Toast.makeText(this, operation, Toast.LENGTH_LONG).show();
-        screen?.setText(str);
+//        screen?.setText(str);
         if (str != "") {
-            a = str.toDoubleOrNull()!!;
+            a = str.toString().toDoubleOrNull()!!;
             wasNoNmbr = false;
         }
 //        if (operation != "") {
@@ -64,25 +64,25 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickNumber(view: View) {
-        val bNmbr = view as Button
-        if (wasNoNmbr) {
-            str += bNmbr.text.toString()
-            screen!!.text = str
-            a = str!!.toDouble()
-            wasNoNmbr = false
-        } else {
-            str += bNmbr.text.toString()
-            screen!!.text = str
-            b = str!!.toDouble()
-            wasNoNmbr = true
-        }
+//        val bNmbr = view as Button
+//        if (wasNoNmbr) {
+//            str += bNmbr.text.toString()
+//            screen!!.text = str
+//            a = str!!.toDouble()
+//            wasNoNmbr = false
+//        } else {
+//            str += bNmbr.text.toString()
+//            screen!!.text = str
+//            b = str!!.toDouble()
+//            wasNoNmbr = true
+//        }
     }
 
     fun onClickOperation(view: View) {
-        val bOperation = view as Button
-        operation = bOperation.text.toString()
-        screen!!.text = operation
-        str = ""
+//        val bOperation = view as Button
+//        operation = bOperation.text.toString()
+//        screen!!.text = operation
+//        str = ""
     }
 
     fun calculate(view: View?) {
@@ -116,14 +116,14 @@ class MainActivity : AppCompatActivity() {
             "log10" -> result = Math.log10(a)
             else -> str = "NaN"
         }
-        if (str == "Dla sfery ∞") {
-//            Log.d("#########",str);
-            screen!!.text = str
-        } else {
-//            Log.d("===================",str);
-            str = result.toString()
-            screen!!.text = str
-        }
+//        if (str == "Dla sfery ∞") {
+////            Log.d("#########",str);
+//            screen!!.text = str
+//        } else {
+////            Log.d("===================",str);
+//            str = result.toString()
+//            screen!!.text = str
+//        }
     }
 
     fun factorial(x: Double): Double {
