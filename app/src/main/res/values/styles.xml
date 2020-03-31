@@ -14,7 +14,9 @@
     </style>
 
     <style name="textGreen">
-        <item name="android:textColor">#FF00FF00</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+<!--        <item name="android:">?android:attr/buttonBarButtonStyle</item>-->
     </style>
 
 </resources>

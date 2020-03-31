@@ -72,7 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="9" />
 
             <Button
@@ -80,7 +80,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="=" />
 
             <Button
@@ -88,6 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="+" />
 
         </LinearLayout>
@@ -102,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="4" />
 
             <Button
@@ -110,7 +111,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="5" />
 
             <Button
@@ -118,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="6" />
 
             <Button
@@ -126,7 +127,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="φ" />
 
             <Button
@@ -134,6 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="-" />
         </LinearLayout>
 
@@ -147,7 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="1" />
 
             <Button
@@ -155,7 +157,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="2" />
 
             <Button
@@ -163,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="3" />
 
             <Button
@@ -171,7 +173,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="AC" />
 
             <Button
@@ -179,6 +181,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="*" />
         </LinearLayout>
 
@@ -192,7 +195,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="" />
 
             <Button
@@ -200,7 +203,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="0" />
 
             <Button
@@ -208,7 +211,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="." />
 
             <Button
@@ -216,7 +219,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-
+                    style="@style/textGreen"
                     android:text="%" />
 
             <Button
@@ -224,6 +227,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:style="?android:attr/buttonBarButtonStyle"
                     android:text="/" />
         </LinearLayout>
     </LinearLayout>
